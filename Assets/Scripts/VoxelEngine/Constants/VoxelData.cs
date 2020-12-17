@@ -16,15 +16,15 @@ namespace Voxelis.Constants
 
 		public static readonly float3[] Vertices = new float3[8] 
 		{
-            new float3(0, 0, 0),
-            new float3(1, 0, 0),
-            new float3(1, 1, 0),
-            new float3(0, 1, 0),
-            new float3(0, 0, 1),
-            new float3(1, 0, 1),
-            new float3(1, 1, 1),
-            new float3(0, 1, 1),
-        };
+		    new float3(0, 0, 0),
+		    new float3(1, 0, 0),
+		    new float3(1, 1, 0),
+		    new float3(0, 1, 0),
+		    new float3(0, 0, 1),
+		    new float3(1, 0, 1),
+		    new float3(1, 1, 1),
+		    new float3(0, 1, 1),
+        	};
 
 		public static readonly int4[] Triangles = new int4[6] 
 		{
@@ -46,7 +46,7 @@ namespace Voxelis.Constants
 			new int3(1, 0, 0)
 		};
 
-        public static readonly int2[] Uvs = new int2[4] 
+        	public static readonly int2[] Uvs = new int2[4] 
 		{
 			new int2 (0, 0),
 			new int2 (0, 1),
